@@ -38098,9 +38098,28 @@ a.text-muted:hover {
             -webkit-box-shadow: 0 0px 5px #ff7901c2;
                     box-shadow: 0 0px 5px #ff7901c2; }
 
+.popular-brand {
+  padding-bottom: 5%;
+  padding-top: 5%; }
+  .popular-brand .popular-head {
+    font-size: 2em;
+    font-family: muli, sans-serif;
+    text-align: center;
+    font-weight: 700; }
+  .popular-brand .brand-logo {
+    padding: 2%; }
+  .popular-brand .brand {
+    border: 1px solid #e8e8e8;
+    padding: 1%;
+    border-radius: 6%;
+    margin: 1%; }
+
 .testimonial {
   background: url(../public/482a7a125dca15f8502e845100246ff3.jpg);
   width: 100%;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 10%; }
   .testimonial .comma {
     position: absolute;
@@ -38138,12 +38157,13 @@ a.text-muted:hover {
 
 .footer {
   background-color: #252525;
-  padding-top: 10%; }
+  padding-top: 10%;
+  position: relative; }
   .footer .audi {
     position: absolute;
-    margin-left: 58%;
-    margin-top: -18%;
-    width: 344px; }
+    width: 31%;
+    top: -50%;
+    right: 0; }
   .footer .footer-text {
     color: #6e6e6e;
     font-family: muli, sans-serif;
