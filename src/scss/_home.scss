@@ -11,11 +11,43 @@
         font-size: 44px;
     }
 }
+ 
+//footer
+.footer
+{
+	background-color: #252525;
 
+	.footer-text
+	{
+		color: #6e6e6e;
+		
+	}
+	.footer-white-text
+	{
+		color: #fff;
+	}
+	.help-line
+	{
+		color: #fff;
+	}
+	i
+	{
+		color: #fff;
+		font-size: 2em;
+	}
+
+	.phone
+	{
+		color: #ff7901;
+	}
+
+}
+
+//bottom ribbon
 .bottom-ribbon
 {
 	background-color: #000;
-	
+
 	.copyright
 	{
 		margin-top: 1rem;

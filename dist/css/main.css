@@ -38026,6 +38026,20 @@ a.text-muted:hover {
   text-align: center;
   font-size: 44px; }
 
+.footer {
+  background-color: #252525; }
+  .footer .footer-text {
+    color: #6e6e6e; }
+  .footer .footer-white-text {
+    color: #fff; }
+  .footer .help-line {
+    color: #fff; }
+  .footer i {
+    color: #fff;
+    font-size: 2em; }
+  .footer .phone {
+    color: #ff7901; }
+
 .bottom-ribbon {
   background-color: #000; }
   .bottom-ribbon .copyright {
