@@ -38058,9 +38058,28 @@ a.text-muted:hover {
         .popular-car-section .section-main .car-card .card-main .card-content .specification .items li .icon {
           width: 30px; }
 
+.popular-brand {
+  padding-bottom: 5%;
+  padding-top: 5%; }
+  .popular-brand .popular-head {
+    font-size: 2em;
+    font-family: muli, sans-serif;
+    text-align: center;
+    font-weight: 700; }
+  .popular-brand .brand-logo {
+    padding: 2%; }
+  .popular-brand .brand {
+    border: 1px solid #e8e8e8;
+    padding: 1%;
+    border-radius: 6%;
+    margin: 1%; }
+
 .testimonial {
   background: url(../public/482a7a125dca15f8502e845100246ff3.jpg);
   width: 100%;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 10%; }
   .testimonial .comma {
     position: absolute;
