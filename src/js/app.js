@@ -1,4 +1,4 @@
-import '../scss/app.scss';
+require('../scss/app.scss');
 
 try {
     window._ = require('lodash');

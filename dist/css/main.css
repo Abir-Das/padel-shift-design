@@ -38024,7 +38024,25 @@ a.text-muted:hover {
   font-family: muli, sans-serif;
   font-weight: 700;
   text-align: center;
-  font-size: 44px; }
+  font-size: 44px;
+  color: #3a3a3a; }
+
+.popular-car-section .section-main .car-card .card-main {
+  padding: 15px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 1px #000;
+          box-shadow: 1px 1px 1px #000;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .popular-car-section .section-main .car-card .card-main .card-title {
+    font-family: muli, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #333333; }
 
 .footer {
   background-color: #252525; }
@@ -38049,5 +38067,3 @@ a.text-muted:hover {
     margin-top: 1rem;
     color: #6e6e6e; }
 
-
-/*# sourceMappingURL=main.css.map*/

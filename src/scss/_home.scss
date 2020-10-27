@@ -9,6 +9,27 @@
         font-weight: 700;
         text-align: center;
         font-size: 44px;
+        color: #3a3a3a;
+    }
+
+    .section-main {
+        .car-card {
+            .card-main {
+                padding: 15px;
+                background-color: #fff;
+                box-shadow: 1px 1px 1px #000;
+                border-radius: 20px;
+                display: flex;
+
+                .card-title {
+                    font-family: $primary-font;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    font-size: 35px;
+                    color: #333333;
+                }
+            }
+        }
     }
 }
  
