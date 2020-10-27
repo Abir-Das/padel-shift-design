@@ -38016,5 +38016,11 @@ a.text-muted:hover {
 [class*="accent-"] a.btn-dark {
   color: #fff; }
 
+.popular-car-section .heading {
+  font-family: muli, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 44px; }
+
 
 /*# sourceMappingURL=main.css.map*/
