@@ -38016,6 +38016,10 @@ a.text-muted:hover {
 [class*="accent-"] a.btn-dark {
   color: #fff; }
 
+* {
+  padding: 0;
+  margin: 0; }
+
 .popular-car-section .heading {
   font-family: muli, sans-serif;
   font-weight: 700;
@@ -38039,4 +38043,13 @@ a.text-muted:hover {
     text-transform: uppercase;
     font-size: 35px;
     color: #333333; }
+
+.bottom-ribbon {
+  background-color: #000; }
+  .bottom-ribbon .copyright {
+    margin-top: 1rem;
+    color: #6e6e6e; }
+  .bottom-ribbon .developed-by {
+    margin-top: 1rem;
+    color: #6e6e6e; }
 
