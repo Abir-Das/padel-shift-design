@@ -38047,23 +38047,34 @@ a.text-muted:hover {
 .footer {
   background-color: #252525; }
   .footer .footer-text {
-    color: #6e6e6e; }
+    color: #6e6e6e;
+    font-family: muli, sans-serif;
+    font-size: 0.8em; }
   .footer .footer-white-text {
-    color: #fff; }
+    color: #fff;
+    font-family: muli, sans-serif;
+    font-size: 1em;
+    font-weight: 700; }
   .footer .help-line {
-    color: #fff; }
+    color: #fff;
+    font-family: muli, sans-serif;
+    margin-bottom: 0 !important; }
   .footer i {
     color: #fff;
     font-size: 2em; }
   .footer .phone {
-    color: #ff7901; }
+    color: #ff7901;
+    font-family: muli, sans-serif;
+    font-size: 1.7em; }
 
 .bottom-ribbon {
   background-color: #000; }
   .bottom-ribbon .copyright {
     margin-top: 1rem;
-    color: #6e6e6e; }
+    color: #6e6e6e;
+    font-family: muli, sans-serif; }
   .bottom-ribbon .developed-by {
     margin-top: 1rem;
-    color: #6e6e6e; }
+    color: #6e6e6e;
+    font-family: muli, sans-serif; }
 

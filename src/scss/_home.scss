@@ -41,25 +41,38 @@
 	.footer-text
 	{
 		color: #6e6e6e;
+		font-family: $primary-font;
+		font-size: 0.8em;
 		
 	}
 	.footer-white-text
 	{
 		color: #fff;
+		font-family: $primary-font;
+		font-size: 1em;
+		font-weight: 700;
 	}
+
 	.help-line
 	{
 		color: #fff;
+		font-family: $primary-font;
+		margin-bottom: 0 !important;
 	}
+
 	i
 	{
 		color: #fff;
 		font-size: 2em;
+
 	}
 
 	.phone
 	{
 		color: #ff7901;
+		font-family: $primary-font;
+		font-size: 1.7em;
+
 	}
 
 }
@@ -73,11 +86,13 @@
 	{
 		margin-top: 1rem;
 		color: #6e6e6e;
+		font-family: $primary-font;
 	}
 
 	.developed-by
 	{
 		margin-top: 1rem;
 		color: #6e6e6e;
+		font-family: $primary-font;
 	}
 }
