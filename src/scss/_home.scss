@@ -4,22 +4,28 @@
 }
 
 .popular-car-section {
+    padding: 45px 0;
+
     .heading {
         font-family: $primary-font;
         font-weight: 700;
         text-align: center;
         font-size: 44px;
         color: #3a3a3a;
+        margin-bottom: 55px;
     }
 
     .section-main {
+        margin-bottom: 50px;
+
         .car-card {
             .card-main {
-                padding: 15px;
+                padding: 30px;
                 background-color: #fff;
-                box-shadow: 1px 1px 1px #000;
+                box-shadow: 0 0 16px #00000047;;
                 border-radius: 20px;
                 display: flex;
+                flex-direction: column;
 
                 .card-title {
                     font-family: $primary-font;
@@ -27,6 +33,7 @@
                     text-transform: uppercase;
                     font-size: 35px;
                     color: #333333;
+                    margin-bottom: 30px;
                 }
             }
         }
