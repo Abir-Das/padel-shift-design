@@ -38053,6 +38053,10 @@ a.text-muted:hover {
         font-size: 35px;
         color: #333333;
         margin-bottom: 30px; }
+      .popular-car-section .section-main .car-card .card-main .card-content .specification .items li {
+        list-style-type: none; }
+        .popular-car-section .section-main .car-card .card-main .card-content .specification .items li .icon {
+          width: 30px; }
 
 .footer {
   background-color: #252525; }

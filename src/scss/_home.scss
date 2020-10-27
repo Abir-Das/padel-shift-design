@@ -35,6 +35,20 @@
                     color: #333333;
                     margin-bottom: 30px;
                 }
+
+                .card-content {
+                    .specification {
+                        .items {
+                            li {
+                                list-style-type: none;
+
+                                .icon {
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
