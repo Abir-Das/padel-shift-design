@@ -38026,5 +38026,14 @@ a.text-muted:hover {
   text-align: center;
   font-size: 44px; }
 
+.bottom-ribbon {
+  background-color: #000; }
+  .bottom-ribbon .copyright {
+    margin-top: 1rem;
+    color: #6e6e6e; }
+  .bottom-ribbon .developed-by {
+    margin-top: 1rem;
+    color: #6e6e6e; }
+
 
 /*# sourceMappingURL=main.css.map*/
