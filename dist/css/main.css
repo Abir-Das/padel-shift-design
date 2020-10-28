@@ -38098,6 +38098,34 @@ a.text-muted:hover {
             -webkit-box-shadow: 0 0px 5px #ff7901c2;
                     box-shadow: 0 0px 5px #ff7901c2; }
 
+.about-us {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #f0f0f0; }
+  .about-us .about-us-head {
+    font-size: 3em;
+    font-weight: 700;
+    color: #3a3a3a;
+    font-family: muli, sans-serif; }
+  .about-us .about-us-text {
+    color: #878787; }
+  .about-us .signup {
+    padding: 1%;
+    color: #fff;
+    font-weight: 500;
+    background-color: #11bb48;
+    padding: 8px 25px;
+    border-radius: 10rem;
+    -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    -webkit-box-shadow: 0 4px 11px #11bb48b8;
+            box-shadow: 0 4px 11px #11bb48b8; }
+    .about-us .signup:hover {
+      -webkit-box-shadow: 0px 1px 6px 0px #11bb48;
+              box-shadow: 0px 1px 6px 0px #11bb48; }
+
 .popular-brand {
   padding-bottom: 5%;
   padding-top: 5%; }
