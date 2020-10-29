@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "webpack --progress --mode=development",
     "watch": "npm run dev -- --watch",
-    "dist": "webpack -p --mode=production",
+    "dist": "webpack --mode=production",
     "fix": "prettier --write src"
   },
   "devDependencies": {

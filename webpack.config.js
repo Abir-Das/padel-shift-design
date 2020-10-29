@@ -58,7 +58,7 @@ module.exports = {
         ]
     },
     optimization: {
-        minimizer: [new TerserPlugin({}), new OptimizeCSSAssetsPlugin({})],
+        minimizer: [new TerserPlugin({})],
     },
     plugins: [
         new MiniCssExtractPlugin({

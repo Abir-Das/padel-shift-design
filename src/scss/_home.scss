@@ -224,7 +224,6 @@
     background-position: top 100px right -15px;
     background-size: 50%;
 
-
     .about-us-head {
         font-size: 3em;
         font-weight: 700;
@@ -314,7 +313,8 @@
 
 // feature section
 .feature-section {
-    padding-top: 250px;
+    padding-top: 350px;
+    padding-bottom: 100px;
 
     .feature-head {
         font-family: $primary-font;
@@ -322,7 +322,7 @@
         text-align: center;
         font-weight: 400;
         color: #3a3a3a;
-        font-weight:700;
+        font-weight: 700;
 
         .orange {
             color: #ff7901;
@@ -335,30 +335,33 @@
         font-size: 1.1em;
     }
 
-    .feature-box
-    {
-        margin:3%;
-        border:none;
+    .feature-box {
+        margin-bottom: 15px;
 
-        .card-img-top
-        {
-            width:50% !important;
-            margin:auto;
-        }
-        .feature-card-head
-        {
-            font-family:$primary-font;
-            font-size:1.2em;
-            font-weight:800;
-            color:#3a3a3a;
-        }
-        .feature-card-text
-        {
-            color:#929292;
-            font-family:$primary-font;
-            font-size:0.8em;
+        .card-img-top {
+            width: 50% !important;
+            margin: auto;
+            display: flex;
         }
 
+        .text-section {
+            margin-top: 15px;
+
+            .feature-card-head {
+                font-family: $primary-font;
+                font-size: 1.2em;
+                font-weight: 800;
+                color: #3a3a3a;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+
+            .feature-card-text {
+                color: #929292;
+                font-family: $primary-font;
+                font-size: 0.8em;
+            }
+        }
     }
 }
 
