@@ -1,5 +1,5 @@
 require('../scss/app.scss')
-import videojs from 'video.js';
+import videojs from 'video.js'
 
 try {
     window._ = require('lodash')
@@ -23,9 +23,8 @@ window.axios.defaults.withCredentials = true
 
 // Frontend
 const homepage_video = videojs(document.querySelector('#homepage-video'), {
-	controls: true,
-	autoplay: false,
-	preload: 'auto',
-	fluid: true
-});
-
+    controls: true,
+    autoplay: false,
+    preload: 'auto',
+    fluid: true,
+})
