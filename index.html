@@ -9,6 +9,34 @@
 </head>
 <body>
     <div id="app">
+        <!-- Menu Section -->
+        <header class="page-header">
+            <div class="container-lg">
+                <div class="col-12 header-container">
+                    <div class="brand-logo">
+                        <img src="./src/images/logo.png" alt=""  class="brand-name">
+                    </div>
+                    <div class="menu-header-container">
+                        <ul>
+                            <li><a href="#">How It works</a></li>
+                            <li><a href="#">Lorem</a></li>
+                            <li><a href="#">Testimonials</a></li>
+
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            
+                            <li><a href="#" class="btn signup"><i class="fas fa-user"></i>&nbsp;login</a></li>
+
+                        </ul>
+                    </div>
+                    <button class="responsive-btn d-md-none" @click="{responsiveMenuOpen = 1}">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- End Menu Section -->
+
         <!-- Popular Car Section -->
         <section class="popular-car-section">
             <div class="container">
@@ -208,11 +236,14 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <p class="video-head"><span class="orange">Explore</span> lorem Ipsum Text</p>
-                        <p class="video-sub-head">
+                        <p class="feature-head"><span class="orange">Explore</span> lorem Ipsum Text</p>
+                        <p class="feature-sub-head">
                             Lorem Ipsum is simply dummy text printmedia It is a long established fact a reader will be distracted Content of a page when looking at its layout.
                         </p>
                     </div>
+                </div>
+                <div class="">
+                    
                 </div>
             </div>
         </section>
