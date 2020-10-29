@@ -39852,9 +39852,12 @@ a.text-muted:hover {
                     box-shadow: 0 0px 5px #ff7901c2; }
 
 .about-us {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: #f0f0f0; }
+  padding: 200px 0;
+  background-color: #f0f0f0;
+  background-image: url(../public/e2304b3dfc0f83f26a141e616f9a55f6.jpg);
+  background-repeat: no-repeat;
+  background-position: top 100px right -15px;
+  background-size: 50%; }
   .about-us .about-us-head {
     font-size: 3em;
     font-weight: 700;
@@ -39878,23 +39881,11 @@ a.text-muted:hover {
     .about-us .signup:hover {
       -webkit-box-shadow: 0px 1px 6px 0px #11bb48;
               box-shadow: 0px 1px 6px 0px #11bb48; }
-  .about-us .video-head {
-    font-family: muli, sans-serif;
-    font-size: 2em;
-    text-align: center;
-    font-weight: 400;
-    color: #3a3a3a; }
-    .about-us .video-head .orange {
-      color: #ff7901; }
-  .about-us .video-sub-head {
-    font-family: muli, sans-serif;
-    color: #777777;
-    font-size: 1.1em; }
 
 .video-section {
   background: #f0f0f0; }
   .video-section .heading {
-    padding-bottom: 18vw; }
+    padding-bottom: 250px; }
     .video-section .heading .video-head {
       font-family: muli, sans-serif;
       font-size: 2em;
@@ -39933,7 +39924,7 @@ a.text-muted:hover {
           -ms-flex-align: center;
               align-items: center; }
       .video-section .clip-main .clip-container::before {
-        content: "";
+        content: '';
         width: 120%;
         height: 80%;
         background: #ff7901;
