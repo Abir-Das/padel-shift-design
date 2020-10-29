@@ -132,7 +132,92 @@
         &:hover {
             box-shadow: 0px 1px 6px 0px #11bb48;
         }
+    }
+
+    .video-head
+    {
+        font-family: $primary-font;
+        font-size: 2em;
+        text-align: center;
+        font-weight: 400;
+        color:#3a3a3a;
+
+        .orange
+        {
+            color:#ff7901;
+        }
+    }
+
+    .video-sub-head
+    {
+        font-family: muli, sans-serif;
+        color: #777777;
+        font-size: 1.1em;
     }    
+}
+
+//video section
+.video-section
+{
+    background: #f0f0f0;
+
+    .heading {
+        padding-bottom: 18vw;
+
+        .video-head
+        {
+            font-family: $primary-font;
+            font-size: 2em;
+            text-align: center;
+            font-weight: 700;
+            color:#3a3a3a;
+
+            .orange
+            {
+                color:#ff7901;
+            }
+        }
+
+        .video-sub-head
+        {
+            font-family: muli, sans-serif;
+            color: #777777;
+            font-size: 1.1em;
+        }
+    }
+
+    .clip-main {
+        position: relative;
+        height: 0;
+
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: 0;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+        }
+
+        .clip-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &::before {
+                content: "";
+                width: 120%;
+                height: 80%;
+                background: $primary-color;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 10px;
+            }
+        }
+    }
 }
 
 //popular brand
