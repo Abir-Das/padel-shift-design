@@ -299,6 +299,32 @@
         color: #777777;
         font-size: 1.1em;
     }
+
+    .feature-box
+    {
+        margin-left:8%;
+        border:none;
+
+        .card-img-top
+        {
+            width:50% !important;
+            margin:auto;
+        }
+        .feature-card-head
+        {
+            font-family:$primary-font;
+            font-size:1.2em;
+            font-weight:800;
+            color:#3a3a3a;
+        }
+        .feature-card-text
+        {
+            color:#929292;
+            font-family:$primary-font;
+            font-size:0.8em;
+        }
+
+    }
 }
 
 //popular brand
