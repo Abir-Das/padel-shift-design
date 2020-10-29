@@ -39751,7 +39751,12 @@ a.text-muted:hover {
           color: #5f5f5f;
           text-decoration: none;
           font-family: muli, sans-serif;
-          font-size: 0.8em; }
+          font-weight: 600;
+          font-size: 0.9em;
+          -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out; }
+          .page-header .header-container .menu-header-container li a:hover {
+            color: #4b4b4b; }
       .page-header .header-container .menu-header-container .signup {
         padding: 1%;
         color: #fff;
@@ -39768,6 +39773,25 @@ a.text-muted:hover {
         .page-header .header-container .menu-header-container .signup:hover {
           -webkit-box-shadow: 0px 1px 6px 0px #11bb48;
                   box-shadow: 0px 1px 6px 0px #11bb48; }
+
+.hero-section {
+  padding: 100px 0 50px 0;
+  height: 600px;
+  background: url(../public/a62d4c66385f05034bd9753facda7abe.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center; }
+  .hero-section .heading {
+    color: #fff;
+    font-family: muli, sans-serif;
+    margin-top: 100px; }
+    .hero-section .heading .small-heading {
+      font-weight: 300;
+      font-size: 2.2em;
+      margin-bottom: 5px; }
+    .hero-section .heading .main-heading {
+      font-weight: 800;
+      font-size: 3.2em; }
 
 .popular-car-section {
   padding: 45px 0;
@@ -39817,27 +39841,29 @@ a.text-muted:hover {
           font-weight: 600;
           color: #333333;
           font-size: 1.5em; }
-        .popular-car-section .section-main .car-card .card-main .card-content .specification .items li {
-          list-style-type: none;
-          margin-bottom: 12px;
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -webkit-align-items: center;
-              -ms-flex-align: center;
-                  align-items: center; }
-          .popular-car-section .section-main .car-card .card-main .card-content .specification .items li:last-child {
-            margin-bottom: 0; }
-          .popular-car-section .section-main .car-card .card-main .card-content .specification .items li .icon {
-            width: 30px; }
-          .popular-car-section .section-main .car-card .card-main .card-content .specification .items li span {
-            font-family: muli, sans-serif;
-            font-weight: 400;
-            color: #898989;
-            padding-left: 15px;
-            font-size: 1.2em; }
+        .popular-car-section .section-main .car-card .card-main .card-content .specification .items {
+          padding-left: 0; }
+          .popular-car-section .section-main .car-card .card-main .card-content .specification .items li {
+            list-style-type: none;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+            .popular-car-section .section-main .car-card .card-main .card-content .specification .items li:last-child {
+              margin-bottom: 0; }
+            .popular-car-section .section-main .car-card .card-main .card-content .specification .items li .icon {
+              width: 30px; }
+            .popular-car-section .section-main .car-card .card-main .card-content .specification .items li span {
+              font-family: muli, sans-serif;
+              font-weight: 400;
+              color: #898989;
+              padding-left: 15px;
+              font-size: 1.2em; }
         .popular-car-section .section-main .car-card .card-main .card-content .book-btn {
           background-color: #ff7901;
           color: #fff;

@@ -12,7 +12,7 @@
         <!-- Menu Section -->
         <header class="page-header">
             <div class="container-lg">
-                <div class="col-12 header-container">
+                <div class="col-14 header-container">
                     <div class="brand-logo">
                         <img src="./src/images/logo.png" alt=""  class="brand-name">
                     </div>
@@ -25,7 +25,19 @@
                             <li><a href="#">Faq</a></li>
                             <li><a href="#">Contact Us</a></li>
                             
-                            <li><a href="#" class="btn signup"><i class="fas fa-user"></i>&nbsp;login</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button href="#" class="btn signup" id="signupDropdownButton" data-toggle="dropdown">
+                                        <i class="fas fa-user"></i> &nbsp;&nbsp;login &nbsp;&nbsp; <i class="fas fa-angle-down"></i>
+                                    </button>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Trader</a>
+                                        <a class="dropdown-item" href="#">Seller</a>
+                                        <a class="dropdown-item" href="#">Buyer</a>
+                                    </div>
+                                </div>
+                            </li>
 
                         </ul>
                     </div>
@@ -36,6 +48,21 @@
             </div>
         </header>
         <!-- End Menu Section -->
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="heading">
+                            <p class="small-heading">Lorem Ipsum</p>
+                            <h1 class="main-heading">Find The Right Car For You</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Hero Section -->
 
         <!-- Popular Car Section -->
         <section class="popular-car-section">
