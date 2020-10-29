@@ -39936,7 +39936,7 @@ a.text-muted:hover {
         border-radius: 10px; }
 
 .feature-section {
-  padding-top: 24%; }
+  padding-top: 250px; }
   .feature-section .feature-head {
     font-family: muli, sans-serif;
     font-size: 2em;
@@ -39951,7 +39951,7 @@ a.text-muted:hover {
     color: #777777;
     font-size: 1.1em; }
   .feature-section .feature-box {
-    margin-left: 8%;
+    margin: 3%;
     border: none; }
     .feature-section .feature-box .card-img-top {
       width: 50% !important;
