@@ -39942,7 +39942,8 @@ a.text-muted:hover {
     font-size: 2em;
     text-align: center;
     font-weight: 400;
-    color: #3a3a3a; }
+    color: #3a3a3a;
+    font-weight: 700; }
     .feature-section .feature-head .orange {
       color: #ff7901; }
   .feature-section .feature-sub-head {
