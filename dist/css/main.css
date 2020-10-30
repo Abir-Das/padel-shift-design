@@ -40096,29 +40096,56 @@ a.text-muted:hover {
   background-color: #252525;
   padding-top: 10%;
   position: relative; }
+  .footer div {
+    text-align: center; }
+    @media (min-width: 992px) {
+      .footer div {
+        text-align: left; } }
   .footer .logo img {
-    width: 93%; }
+    width: 93%;
+    margin-left: 4%; }
+    @media (min-width: 992px) {
+      .footer .logo img {
+        margin-left: 0; } }
   .footer .audi {
     position: absolute;
     width: 31%;
     top: -50%;
-    right: 0; }
+    right: 0;
+    display: none; }
+    @media (min-width: 992px) {
+      .footer .audi {
+        display: block; } }
   .footer .footer-text {
     color: #7e7e7e;
     font-family: muli, sans-serif;
     font-weight: 300;
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .footer .footer-text {
+        text-align: left; } }
   .footer .footer-white-text {
     color: #fff;
     font-family: muli, sans-serif;
     font-size: 1em;
-    font-weight: 700; }
+    font-weight: 700;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .footer .footer-white-text {
+        text-align: left; } }
   .footer .follow-section .social-icons {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    @media (min-width: 992px) {
+      .footer .follow-section .social-icons {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
     .footer .follow-section .social-icons .icon {
       padding: 0 6px; }
       .footer .follow-section .social-icons .icon:first-child {
@@ -40145,12 +40172,20 @@ a.text-muted:hover {
   .footer .follow-section .help-line {
     color: #fff;
     font-family: muli, sans-serif;
-    margin-bottom: 0 !important; }
+    margin-bottom: 0 !important;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .footer .follow-section .help-line {
+        text-align: left; } }
   .footer .follow-section .phone-number {
     color: #ff7901;
     font-family: muli, sans-serif;
     font-weight: 800;
-    font-size: 1.7em; }
+    font-size: 1.7em;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .footer .follow-section .phone-number {
+        text-align: left; } }
 
 .bottom-ribbon {
   background-color: #000; }
