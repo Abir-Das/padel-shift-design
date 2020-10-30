@@ -129,9 +129,10 @@
 
     .section-main {
         margin-bottom: 50px;
+        justify-content: center;
 
         .car-card {
-            margin-bottom: 15px;
+            margin-bottom: 25px;
 
             @media (min-width: 768px) {
                 margin-bottom: 0;
@@ -170,7 +171,11 @@
                         font-family: $primary-font;
                         font-weight: 600;
                         color: #333333;
-                        font-size: 1.5em;
+                        font-size: 1em;
+
+                        @media (min-width: 768px) {
+                            font-size: 1.5em;
+                        }
                     }
 
                     .specification {
@@ -223,10 +228,11 @@
 
 //about us
 .about-us {
-    padding: 200px 0;
+    padding: 40px 0;
     background-color: #f0f0f0;
     
     @media (min-width: 768px) {
+        padding: 200px 0;
         background-image: url('../images/car-lineup.jpg');
         background-repeat: no-repeat;
         background-position: top 100px right -15px;
@@ -238,6 +244,11 @@
         font-weight: 700;
         color: #3a3a3a;
         font-family: $primary-font;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            text-align: left;
+        }
     }
 
     .about-us-text {
@@ -263,9 +274,18 @@
 //video section
 .video-section {
     background: #f0f0f0;
+    padding-bottom: 50px;
+
+    @media (min-width: 768px) {
+        padding-bottom: 0;
+    }
 
     .heading {
-        padding-bottom: 250px;
+        padding-bottom: 50px;
+
+        @media (min-width: 768px) {
+            padding-bottom: 250px;
+        }
 
         .video-head {
             font-family: $primary-font;
@@ -288,15 +308,21 @@
 
     .clip-main {
         position: relative;
-        height: 0;
+        height: auto;
+        
+        @media (min-width: 768px) {
+            height: 0;
+        }
 
         .container {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin: 0;
-            transform: translate(-50%, -50%);
-            z-index: 5;
+            @media (min-width: 768px) {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin: 0;
+                transform: translate(-50%, -50%);
+                z-index: 5;
+            }
         }
 
         .clip-container {
@@ -307,14 +333,17 @@
 
             &::before {
                 content: '';
-                width: 120%;
-                height: 80%;
-                background: $primary-color;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                border-radius: 10px;
+
+                @media (min-width: 768px) {
+                    width: 120%;
+                    height: 80%;
+                    background: $primary-color;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 10px;
+                }
             }
         }
     }
@@ -322,8 +351,13 @@
 
 // feature section
 .feature-section {
-    padding-top: 350px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media (min-width: 768px) {
+        padding-top: 350px;
+        padding-bottom: 100px;
+    }
 
     .feature-head {
         font-family: $primary-font;
@@ -378,6 +412,7 @@
 .popular-brand {
     padding-bottom: 5%;
     padding-top: 5%;
+
     .popular-head {
         font-size: 2em;
         font-family: $primary-font;
@@ -388,11 +423,16 @@
         border: 1px solid #e8e8e8;
         padding: 1%;
         border-radius: 6%;
-        margin: 0 15px;
+        margin: 0 10px;
         display: flex;
         align-items: center;
         cursor: pointer;
         transition: box-shadow 0.3s ease-in-out;
+        margin-bottom: 20px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+        }
 
         &:hover {
             box-shadow: 0 5px 12px #0000001f;
