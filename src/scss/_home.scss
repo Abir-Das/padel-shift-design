@@ -6,6 +6,12 @@
     z-index: 1000;
     background-color: #f0f0f0;
     transition: all 0.3s ease-in-out;
+    display:none;
+
+    @media (min-width: 992px)
+    {
+        display: block;
+    }
 
     .header-container {
         padding: 30px 0%;
@@ -510,6 +516,18 @@
 
 //footer
 .footer {
+
+    div
+    {
+        text-align:center;
+
+        @media(min-width: 992px )
+        {
+            text-align:left;
+        }
+
+    }
+
     background-color: #252525;
     padding-top: 10%;
     position: relative;
@@ -517,6 +535,12 @@
     .logo {
         img {
             width: 93%;
+            margin-left: 4%;
+
+            @media(min-width: 992px )
+            {
+                margin-left:0;
+            }
         }
     }
 
@@ -525,6 +549,12 @@
         width: 31%;
         top: -50%;
         right: 0;
+        display:none;
+
+        @media (min-width: 992px)
+        {
+            display:block;
+        }
     }
 
     .footer-text {
@@ -532,6 +562,12 @@
         font-family: $primary-font;
         font-weight: 300;
         font-size: 1.1em;
+        text-align:center;
+
+        @media (min-width: 992px)
+        {
+            text-align:left;
+        }
     }
 
     .footer-white-text {
@@ -539,12 +575,23 @@
         font-family: $primary-font;
         font-size: 1em;
         font-weight: 700;
+        text-align:center;
+
+        @media (min-width: 992px)
+        {
+            text-align:left;
+        }
     }
 
     .follow-section {
         .social-icons {
-            display: flex;
             margin-bottom: 1rem;
+            justify-content:center;
+
+            @media (min-width: 992px)
+            {
+                display: flex;
+            }
 
             .icon {
                 padding: 0 6px;
@@ -593,6 +640,13 @@
             color: #fff;
             font-family: $primary-font;
             margin-bottom: 0 !important;
+            text-align:center;
+
+            @media (min-width: 992px)
+            {
+                text-align:left;
+            }
+
         }
 
         .phone-number {
@@ -600,6 +654,13 @@
             font-family: $primary-font;
             font-weight: 800;
             font-size: 1.7em;
+
+            text-align:center;
+
+            @media (min-width: 992px)
+            {
+                text-align:left;
+            }
         }
     }
 }
@@ -608,16 +669,30 @@
 .bottom-ribbon {
     background-color: #000;
 
+
+
     .copyright {
         margin-top: 1rem;
         color: #6e6e6e;
         font-family: $primary-font;
+        text-align:center;
+
+        @media (min-width: 992px)
+        {
+            text-align:left;
+        }
     }
 
     .developed-by {
         margin-top: 1rem;
         color: #6e6e6e;
         font-family: $primary-font;
+        text-align:center;
+
+        @media (min-width: 992px)
+        {
+            text-align:left;
+        }
     }
 }
 
