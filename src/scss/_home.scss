@@ -137,10 +137,14 @@
         margin-bottom: 50px;
         justify-content: center;
 
+        @media (min-width: 776px) {
+            justify-content: space-between;
+        }
+
         .car-card {
             margin-bottom: 25px;
 
-            @media (min-width: 768px) {
+            @media (min-width: 992px) {
                 margin-bottom: 0;
             }
 
@@ -238,10 +242,15 @@
     background-color: #f0f0f0;
     
     @media (min-width: 768px) {
-        padding: 200px 0;
+        padding: 70px 0;
         background-image: url('../images/car-lineup.jpg');
         background-repeat: no-repeat;
-        background-position: top 100px right -15px;
+        background-position: top 50% right -10px;
+        background-size: 53%;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 200px 0;
         background-size: 50%;
     }
 
@@ -259,6 +268,19 @@
 
     .about-us-text {
         color: #878787;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            text-align: left;
+        }
+    }
+
+    .btn-container {
+        text-align: center;
+
+        @media (min-width: 768px) {
+            text-align: left;
+        }
     }
 
     .signup {
@@ -290,6 +312,10 @@
         padding-bottom: 50px;
 
         @media (min-width: 768px) {
+            padding-bottom: 155px;
+        }
+
+        @media (min-width: 992px) {
             padding-bottom: 250px;
         }
 
@@ -361,6 +387,10 @@
     padding-bottom: 50px;
 
     @media (min-width: 768px) {
+        padding-top: 205px;
+    }
+
+    @media (min-width: 992px) {
         padding-top: 350px;
         padding-bottom: 100px;
     }
@@ -435,10 +465,6 @@
         cursor: pointer;
         transition: box-shadow 0.3s ease-in-out;
         margin-bottom: 20px;
-
-        @media (min-width: 768px) {
-            margin-bottom: 0;
-        }
 
         &:hover {
             box-shadow: 0 5px 12px #0000001f;

@@ -39813,9 +39813,15 @@ a.text-muted:hover {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    @media (min-width: 776px) {
+      .popular-car-section .section-main {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; } }
     .popular-car-section .section-main .car-card {
       margin-bottom: 25px; }
-      @media (min-width: 768px) {
+      @media (min-width: 992px) {
         .popular-car-section .section-main .car-card {
           margin-bottom: 0; } }
       .popular-car-section .section-main .car-card .card-main {
@@ -39898,10 +39904,14 @@ a.text-muted:hover {
   background-color: #f0f0f0; }
   @media (min-width: 768px) {
     .about-us {
-      padding: 200px 0;
+      padding: 70px 0;
       background-image: url(../public/e2304b3dfc0f83f26a141e616f9a55f6.jpg);
       background-repeat: no-repeat;
-      background-position: top 100px right -15px;
+      background-position: top 50% right -10px;
+      background-size: 53%; } }
+  @media (min-width: 1200px) {
+    .about-us {
+      padding: 200px 0;
       background-size: 50%; } }
   .about-us .about-us-head {
     font-size: 3em;
@@ -39913,7 +39923,16 @@ a.text-muted:hover {
       .about-us .about-us-head {
         text-align: left; } }
   .about-us .about-us-text {
-    color: #878787; }
+    color: #878787;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .about-us .about-us-text {
+        text-align: left; } }
+  .about-us .btn-container {
+    text-align: center; }
+    @media (min-width: 768px) {
+      .about-us .btn-container {
+        text-align: left; } }
   .about-us .signup {
     padding: 1%;
     color: #fff;
@@ -39940,6 +39959,9 @@ a.text-muted:hover {
   .video-section .heading {
     padding-bottom: 50px; }
     @media (min-width: 768px) {
+      .video-section .heading {
+        padding-bottom: 155px; } }
+    @media (min-width: 992px) {
       .video-section .heading {
         padding-bottom: 250px; } }
     .video-section .heading .video-head {
@@ -40001,6 +40023,9 @@ a.text-muted:hover {
   padding-top: 50px;
   padding-bottom: 50px; }
   @media (min-width: 768px) {
+    .feature-section {
+      padding-top: 205px; } }
+  @media (min-width: 992px) {
     .feature-section {
       padding-top: 350px;
       padding-bottom: 100px; } }
@@ -40067,9 +40092,6 @@ a.text-muted:hover {
     transition: box-shadow 0.3s ease-in-out;
     transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
     margin-bottom: 20px; }
-    @media (min-width: 768px) {
-      .popular-brand .brand {
-        margin-bottom: 0; } }
     .popular-brand .brand:hover {
       -webkit-box-shadow: 0 5px 12px #0000001f;
               box-shadow: 0 5px 12px #0000001f; }
