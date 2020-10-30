@@ -6,10 +6,9 @@
     z-index: 1000;
     background-color: #f0f0f0;
     transition: all 0.3s ease-in-out;
-    display:none;
+    display: none;
 
-    @media (min-width: 992px)
-    {
+    @media (min-width: 992px) {
         display: block;
     }
 
@@ -240,7 +239,7 @@
 .about-us {
     padding: 40px 0;
     background-color: #f0f0f0;
-    
+
     @media (min-width: 768px) {
         padding: 70px 0;
         background-image: url('../images/car-lineup.jpg');
@@ -341,7 +340,7 @@
     .clip-main {
         position: relative;
         height: auto;
-        
+
         @media (min-width: 768px) {
             height: 0;
         }
@@ -507,8 +506,7 @@
         margin-top: 100px;
         box-shadow: 0px 7px 14px 0px #0000004f;
 
-        @media(min-width:992px)
-        {
+        @media (min-width: 992px) {
             padding: 5% 50px;
         }
 
@@ -547,14 +545,11 @@
 
 //footer
 .footer {
+    div {
+        text-align: center;
 
-    div
-    {
-        text-align:center;
-
-        @media(min-width: 992px )
-        {
-            text-align:left;
+        @media (min-width: 992px) {
+            text-align: left;
         }
     }
 
@@ -567,9 +562,8 @@
             width: 93%;
             margin-left: 4%;
 
-            @media(min-width: 992px )
-            {
-                margin-left:0;
+            @media (min-width: 992px) {
+                margin-left: 0;
             }
         }
     }
@@ -579,11 +573,10 @@
         width: 31%;
         top: -50%;
         right: 0;
-        display:none;
+        display: none;
 
-        @media (min-width: 1200px)
-        {
-            display:block;
+        @media (min-width: 1200px) {
+            display: block;
         }
     }
 
@@ -592,11 +585,10 @@
         font-family: $primary-font;
         font-weight: 300;
         font-size: 1.1em;
-        text-align:center;
+        text-align: center;
 
-        @media (min-width: 992px)
-        {
-            text-align:left;
+        @media (min-width: 992px) {
+            text-align: left;
         }
     }
 
@@ -605,23 +597,21 @@
         font-family: $primary-font;
         font-size: 1em;
         font-weight: 700;
-        text-align:center;
+        text-align: center;
 
-        @media (min-width: 992px)
-        {
-            text-align:left;
+        @media (min-width: 992px) {
+            text-align: left;
         }
     }
 
     .follow-section {
         .social-icons {
             margin-bottom: 1rem;
-            justify-content:center;
+            justify-content: center;
 
-            @media (min-width: 992px)
-            {
+            @media (min-width: 992px) {
                 display: flex;
-                justify-content:flex-start;
+                justify-content: flex-start;
             }
 
             .icon {
@@ -671,13 +661,11 @@
             color: #fff;
             font-family: $primary-font;
             margin-bottom: 0 !important;
-            text-align:center;
+            text-align: center;
 
-            @media (min-width: 992px)
-            {
-                text-align:left;
+            @media (min-width: 992px) {
+                text-align: left;
             }
-
         }
 
         .phone-number {
@@ -686,11 +674,10 @@
             font-weight: 800;
             font-size: 1.7em;
 
-            text-align:center;
+            text-align: center;
 
-            @media (min-width: 992px)
-            {
-                text-align:left;
+            @media (min-width: 992px) {
+                text-align: left;
             }
         }
     }
@@ -700,17 +687,14 @@
 .bottom-ribbon {
     background-color: #000;
 
-
-
     .copyright {
         margin-top: 1rem;
         color: #6e6e6e;
         font-family: $primary-font;
-        text-align:center;
+        text-align: center;
 
-        @media (min-width: 992px)
-        {
-            text-align:left;
+        @media (min-width: 992px) {
+            text-align: left;
         }
     }
 
@@ -718,13 +702,10 @@
         margin-top: 1rem;
         color: #6e6e6e;
         font-family: $primary-font;
-        text-align:center;
+        text-align: center;
 
-        @media (min-width: 992px)
-        {
-            text-align:left;
+        @media (min-width: 992px) {
+            text-align: left;
         }
     }
 }
-
-
