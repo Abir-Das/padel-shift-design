@@ -40097,11 +40097,14 @@ a.text-muted:hover {
   .testimonial .white-box {
     background-color: #fff;
     border-radius: 25px;
-    padding: 5% 50px;
+    padding: 10% 50px;
     position: relative;
     margin-top: 100px;
     -webkit-box-shadow: 0px 7px 14px 0px #0000004f;
             box-shadow: 0px 7px 14px 0px #0000004f; }
+    @media (min-width: 992px) {
+      .testimonial .white-box {
+        padding: 5% 50px; } }
     .testimonial .white-box .comma {
       position: absolute;
       top: -60px;
@@ -40178,7 +40181,11 @@ a.text-muted:hover {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
-        display: flex; } }
+        display: flex;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start; } }
     .footer .follow-section .social-icons .icon {
       padding: 0 6px; }
       .footer .follow-section .social-icons .icon:first-child {
