@@ -131,6 +131,12 @@
         margin-bottom: 50px;
 
         .car-card {
+            margin-bottom: 15px;
+
+            @media (min-width: 768px) {
+                margin-bottom: 0;
+            }
+
             .card-main {
                 padding: 40px 30px;
                 background-color: #fff;
@@ -219,10 +225,13 @@
 .about-us {
     padding: 200px 0;
     background-color: #f0f0f0;
-    background-image: url('../images/car-lineup.jpg');
-    background-repeat: no-repeat;
-    background-position: top 100px right -15px;
-    background-size: 50%;
+    
+    @media (min-width: 768px) {
+        background-image: url('../images/car-lineup.jpg');
+        background-repeat: no-repeat;
+        background-position: top 100px right -15px;
+        background-size: 50%;
+    }
 
     .about-us-head {
         font-size: 3em;
