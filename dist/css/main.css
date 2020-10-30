@@ -39813,7 +39813,7 @@ a.text-muted:hover {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    @media (min-width: 776px) {
+    @media (min-width: 768px) {
       .popular-car-section .section-main {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
@@ -40171,7 +40171,7 @@ a.text-muted:hover {
     top: -50%;
     right: 0;
     display: none; }
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       .footer .audi {
         display: block; } }
   .footer .footer-text {
