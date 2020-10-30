@@ -502,10 +502,15 @@
     .white-box {
         background-color: #fff;
         border-radius: 25px;
-        padding: 5% 50px;
+        padding: 10% 50px;
         position: relative;
         margin-top: 100px;
         box-shadow: 0px 7px 14px 0px #0000004f;
+
+        @media(min-width:992px)
+        {
+            padding: 5% 50px;
+        }
 
         .comma {
             position: absolute;
@@ -551,7 +556,6 @@
         {
             text-align:left;
         }
-
     }
 
     background-color: #252525;
@@ -617,6 +621,7 @@
             @media (min-width: 992px)
             {
                 display: flex;
+                justify-content:flex-start;
             }
 
             .icon {
