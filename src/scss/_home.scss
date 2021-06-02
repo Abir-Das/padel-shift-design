@@ -77,14 +77,14 @@
                 padding: 1%;
                 color: #fff;
                 font-weight: 500;
-                background-color: #11bb48;
+                background-color: $secondary-color;
                 padding: 8px 25px;
                 border-radius: 10rem;
                 transition: box-shadow 0.3s ease-in-out;
                 box-shadow: 0 4px 11px #11bb48b8;
 
                 &:hover {
-                    box-shadow: 0px 1px 6px 0px #11bb48;
+                    box-shadow: 0px 1px 6px 0px $secondary-color;
                 }
             }
         }
@@ -286,14 +286,14 @@
         padding: 1%;
         color: #fff;
         font-weight: 500;
-        background-color: #11bb48;
+        background-color: $secondary-color;
         padding: 8px 25px;
         border-radius: 10rem;
         transition: box-shadow 0.3s ease-in-out;
         box-shadow: 0 4px 11px #11bb48b8;
 
         &:hover {
-            box-shadow: 0px 1px 6px 0px #11bb48;
+            box-shadow: 0px 1px 6px 0px $secondary-color;
         }
     }
 }
@@ -669,7 +669,7 @@
         }
 
         .phone-number {
-            color: #ff7901;
+            color: $primary-color;
             font-family: $primary-font;
             font-weight: 800;
             font-size: 1.7em;
